@@ -1,6 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .background_colour{
 background-color: #F0F1F6;
+font-family: 'Roboto', sans-serif;
 } 
 .Layer_main_image{
   background-color: #FFFFFF;
+  height: 350px;
+  margin-top: 20px;
+}
+.Layer_main_image img{
+  margin-top: 30px;
+}
+.main_container{
+  margin-left: 15px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+#Lumrie_stic{
+  background-color: #FFFFFF;
+  width: 360px;
+  height: 420px;
+  box-shadow: rgb(195, 195, 201) 0px 0px 5px 0px;
+}
+#Lumrie_stic_text{
+  padding: 5px 10px;
+  width: 350px;
+  height: 50px;
+font-size: 19.2px;
+line-height: 20px;
+text-align: start;
+}
+#Lumrie_stic_image{
+  width: 300px;
+  height: 300px;
+  margin-top: 15px;
+  margin-left: 25px;
+  padding: 5px;
+}
+#Lumrie_stic_last{
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: start;
+  width: 350px;
+  height: 24px;
+  padding: 5px 10px;
+}
+#Lumrie_stic_last:hover{
+  color: #00768f;
+}
+
+#vift{
+  background-color: #FFFFFF;
+  width: 360px;
+  height: 420px;
+  box-shadow: rgb(195, 195, 201) 0px 0px 5px 0px;
+}
+#vift_image img{
+  margin-left: 10px;
+  margin-top: 5px;
+  padding: 5px;
+  height: 340px;
+  width: 340px;
 }
