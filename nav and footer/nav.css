@@ -4,16 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: white;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-}
+
 
 nav{
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     padding: 10px 20px 17px 20px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     background-color: #f0f1f7;
     justify-content: space-between;
     width: 100vw;
@@ -55,7 +52,12 @@ nav{
     width: 30px;
     height: auto;
 }
-
+#tag{
+    margin-top: 18px;
+}
+#tag>p{
+    font-size: 14px;
+}
 #tag>p>span{
     /* width: 120px; */
     padding: 8px 5px;
@@ -91,7 +93,9 @@ nav{
     padding: 0px 10px;
 
 }
-
+a{
+    font-size: 14px;
+}
 
 
 #dropdown{
@@ -101,13 +105,18 @@ nav{
     display: flex;
     background-color: transparent;
     width: 140px;
+    height: 45px;
     justify-content: space-between;
     border: none;
-    padding: 5px;
+    /* padding: 1px; */
     border-right: 1px solid black;
     align-items: center;
     cursor: pointer;
 
+}
+#sel-text{
+    font-size: 14px;
+    margin-top: 14px;
 }
 .dropbtn>svg{
     filter: invert(1);
@@ -207,13 +216,13 @@ nav{
 #links>a{
     text-decoration: none;
     color: #202340;
-    font-size: 15px;
+    font-size: 14px;
 }
 #links>a:hover{
     color: #00768f;
 }
 #menu{
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
