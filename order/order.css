@@ -1,0 +1,125 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#accounthistory{
+  border: 1px solid #F0F1F7;
+  background-color: #F0F1F7;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 14vw;
+  margin-left: 1vw;
+  
+  
+  
+  
+}
+
+
+#personalsettings{
+  border: 1px solid #F0F1F7;
+  background-color: #F0F1F7;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  
+}
+
+#shoppingservices{
+  border: 1px solid #F0F1F7;
+  background-color: #F0F1F7;
+  width: 200px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 1vw;
+  margin-left: 1vw;
+}
+
+.leftsidebar{
+  font-weight: bold;
+  
+}
+
+#orders{
+  border: 1px solid #F0F1F7;
+  background-color: #F0F1F7;
+  font-weight: bolder;
+  width: 1150px;
+  font-size: 16px;
+  margin-top: 1vw;
+  display: flex;
+  height: 30px;
+  
+  
+  
+  
+}
+.text{
+  margin-top: 0.5vh;
+}
+hr{
+  height: 150px;
+  color: #F0F1F7;
+  margin-top: 12%;
+  margin-left: 2%;
+}
+
+.orderpage{
+  display: flex;
+}
+
+#order{
+  margin-top: 14vw;
+  margin-left: 4vw;
+}
+
+#filterorders{
+  margin-top: 1vw;
+  font-size: 16px;
+}
+
+#all{
+  border: 1px solid ;
+  width: 75px;
+  height: 30px;
+  margin-top: 0.5vw;
+  
+}
+
+.findby{
+  margin-left: 84vw;
+}
+
+#number{
+  height: 40px;
+  margin-top: 1vw;
+}
+#number::placeholder{
+  font-style: italic;
+}
+
+#find{
+  border: 1px solid;
+  border-radius: 15px;
+  width: 50px;
+  text-align: center;
+  height: 30px;
+  text-align: center;
+  margin-left: 11vw;
+  margin-top: -2.3vw;
+  padding: 5px;
+}
+
+
+#xbtn{
+  margin-top: 0.2vw;
+}
