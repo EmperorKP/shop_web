@@ -65,10 +65,12 @@ color: #202340;
   margin-top: 15px;
   font-size: 14px;
   line-height: 14px;
+  text-decoration: underline;
   text-align: start;
   width: 350px;
   height: 24px;
   padding: 5px 10px;
+  cursor: pointer;
 }
 #Lumrie_stic_last:hover{
   color: #00768f;
@@ -103,14 +105,57 @@ font-size: 19.2px;
 line-height: 20px;
 text-align: start;
 }
+
 #featured_stores_last{
-  margin-top: 15px;
+  text-decoration: underline;
+  margin-top:82px;
   font-size: 14px;
   line-height: 14px;
   text-align: start;
   width: 350px;
   height: 24px;
   padding: 5px 10px;
+  cursor: pointer;
+}
+#featured_stores_last:hover{
+  color: #00768f;
+}
+
+#free_shipping{
+  background-color: #FFFFFF;
+  width: 360px;
+  height: 420px;
+  box-shadow: rgb(195, 195, 201) 0px 0px 5px 0px;
+}
+#free_shipping_text{
+  padding: 5px 10px;
+  width: 350px;
+  height: 50px;
+font-size: 19.2px;
+line-height: 20px;
+text-align: start;
+color: #202340;
+}
+#free_shipping_image{
+  width: 300px;
+  height: 300px;
+  margin-top: 15px;
+  margin-left: 25px;
+  padding: 5px;
+}
+#free_shipping_last{
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 14px;
+  text-decoration: underline;
+  text-align: start;
+  width: 350px;
+  height: 24px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+#free_shipping_last:hover{
+  color: #00768f;
 }
 #footer-top{
   display: flex;
@@ -247,4 +292,35 @@ h5{
 }
 .footer-svg{
   color: #202340;
+}
+.img-thumbnail{
+  background-color: #F0F1F7;
+  text-align: center;
+  border-radius: 0;
+  width: 301px;
+  margin-left: 30px;
+}
+#macy{
+  margin-top: 10px;
+}
+#macy img{
+padding: 5px 10px;
+}
+#gift_card{
+  margin-top: 10px;
+}
+#gift_card img{
+  padding: 5px 10px;
+}
+#jcpenny{
+  margin-top: 10px;
+}
+#jcpenny img{
+  padding: 5px 10px;
+}
+#qvc{
+  margin-top: 10px;
+}
+#qvc img{
+  padding: 5px 10px;
 }

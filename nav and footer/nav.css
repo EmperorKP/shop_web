@@ -118,9 +118,9 @@ a{
     font-size: 14px;
     margin-top: 14px;
 }
-/* .dropbtn>svg{
-     filter: invert(1); 
-} */
+.down_arrow_topdepartment{
+    filter: invert();
+}
 .dropdown-content{
     position: absolute;
     display: none;
@@ -254,4 +254,7 @@ input::-webkit-search-cancel-button {
 }
 .footer-svg{
    filter: invert();
+}
+#search-logo{
+    filter: invert();
 }
