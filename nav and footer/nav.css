@@ -48,7 +48,7 @@ nav{
     align-items: center;
 }
 #three-lines>svg{
-    filter: invert(1);
+    /* filter: invert(1); */
     width: 30px;
     height: auto;
 }
@@ -119,7 +119,7 @@ a{
     margin-top: 14px;
 }
 .dropbtn>svg{
-    filter: invert(1);
+    /* filter: invert(1); */
 }
 .dropdown-content{
     position: absolute;
