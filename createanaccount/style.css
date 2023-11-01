@@ -1,0 +1,149 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+::placeholder{
+  font-style: italic;
+}
+
+.name{
+  display: flex;
+}
+
+#enterfirstname{
+  margin-left: 25vw;
+  margin-top: 1vw;
+}
+
+#enterlastname{
+  margin-left: 3vw;
+  margin-top: 1vw;
+}
+
+#firstname,#lastname{
+  width: 400px;
+  height: 40px;
+}
+
+p{
+  font-size: 20px;
+}
+
+#e-address{
+  margin-left: 25vw;
+  margin-top: 2vw;
+}
+
+#email{
+  margin-left: 25vw;
+  width: 400px;
+  height: 40px;
+}
+
+#pass{
+  margin-left: 25vw;
+  margin-top: 2vw;
+
+}
+
+#password{
+  margin-left: 25vw;
+  width: 400px;
+  height: 40px;
+}
+
+#mainpass{
+  display: flex;
+}
+
+#re-enter{
+  width: 400px;
+  margin-left: 2vw;
+  height: 40px;
+}
+
+#confirmpass{
+  margin-top: 2vw;
+  margin-left: 2vw;
+}
+
+#createanaccount{
+  margin-left: 25vw;
+}
+
+#indicates{
+ margin-left: 25vw;
+ margin-top: 1vw;
+}
+
+#textmessage{
+  margin-left: 25vw;
+  margin-top: 2vw;
+}
+
+#checkbox{
+  margin-left: 25vw;
+  margin-top: 1vw;
+
+}
+
+#cbtext{
+  margin-left: 26vw;
+  margin-top: -1.4vw;
+}
+
+#mobilephone{
+  margin-left: 25vw;
+  margin-top: 1vw;
+}
+
+#number{
+  margin-left: 25vw;
+  width: 400px;
+  height: 40px;
+}
+
+#refer{
+  border: 1px solid grey;
+  width: 440px;
+  margin-left: 25vw;
+  margin-top: 2vw;
+  height: 90px;
+}
+
+#emailoptional{
+  width: 400px;
+  text-align: center;
+}
+
+#create{
+  width: 400px;
+  height: 30px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: #414467;
+  margin-left: 25vw;
+  margin-top: 3vw;
+  font-style: normal;
+  font-size: 20px;
+}
+
+#create::placeholder{
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#emailoptional{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#refertext1,#refertext2{
+  margin-left: 20px;
+}
