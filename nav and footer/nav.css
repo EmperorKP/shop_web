@@ -10,7 +10,7 @@ nav{
     /* position: fixed; */
     display: flex;
     padding: 10px 20px 17px 20px;
-    /* margin-top: 30px; */
+    margin-top: 30px;
     background-color: #f0f1f7;
     justify-content: space-between;
     width: 100vw;
