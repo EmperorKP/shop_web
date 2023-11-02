@@ -105,6 +105,43 @@ font-size: 19.2px;
 line-height: 20px;
 text-align: start;
 }
+.img-thumbnail{
+  background-color: #F0F1F7;
+  text-align: center;
+  border-radius: 0;
+}
+#macy{
+  margin-top: 10px;
+  width: 301px;
+  margin-left: 30px;
+}
+#macy img{
+padding: 5px 10px;
+}
+#gift_card{
+  margin-top: 10px;
+  width: 301px;
+  margin-left: 30px;
+}
+#gift_card img{
+  padding: 5px 10px;
+}
+#jcpenny{
+  margin-top: 10px;
+  width: 301px;
+  margin-left: 30px;
+}
+#jcpenny img{
+  padding: 5px 10px;
+}
+#qvc{
+  margin-top: 10px;
+  width: 301px;
+  margin-left: 30px;
+}
+#qvc img{
+  padding: 5px 10px;
+}
 
 #featured_stores_last{
   text-decoration: underline;
@@ -126,6 +163,7 @@ text-align: start;
   width: 360px;
   height: 420px;
   box-shadow: rgb(195, 195, 201) 0px 0px 5px 0px;
+  margin-right: 15px;
 }
 #free_shipping_text{
   padding: 5px 10px;
@@ -157,6 +195,62 @@ color: #202340;
 #free_shipping_last:hover{
   color: #00768f;
 }
+.whole_brand_container{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.hot_toys_part{
+  width: 426px;
+  height: 590px;
+  background-color: #FFFFFF;
+}
+.hot_toys_part img{
+  width: 400px;
+  margin-top: 93px;
+  margin-left: 11px;
+}
+.popular_brands{
+  width: 1082px;
+  height: 590px;
+  background-color: #FFFFFF;
+}
+#popular_brands_text{
+  color: #2e2c38;
+  width: 1053px;
+  height: 28px;
+  font-size: 28px;
+  padding: 10px;
+  margin-top: 10px;
+  line-height: 28px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Part  */
 #footer-top{
   display: flex;
   height: 53px;
@@ -293,34 +387,8 @@ h5{
 .footer-svg{
   color: #202340;
 }
-.img-thumbnail{
-  background-color: #F0F1F7;
-  text-align: center;
-  border-radius: 0;
-  width: 301px;
-  margin-left: 30px;
-}
-#macy{
-  margin-top: 10px;
-}
-#macy img{
-padding: 5px 10px;
-}
-#gift_card{
-  margin-top: 10px;
-}
-#gift_card img{
-  padding: 5px 10px;
-}
-#jcpenny{
-  margin-top: 10px;
-}
-#jcpenny img{
-  padding: 5px 10px;
-}
-#qvc{
-  margin-top: 10px;
-}
-#qvc img{
-  padding: 5px 10px;
+#nike{
+  width:200px ;
+  height:112px ;
+  
 }
